@@ -368,14 +368,15 @@
 
   /*# sourceMappingURL=style.css.map */
    .copyright {
-    position: fixed;
-    bottom: 12px;
-    margin: 0 auto;
+    position:absolute;
+    bottom: 0;     
     white-space: nowrap;
     color:antiquewhite;
     font-size: 16px;
     z-index: 0;
-
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 1rem;
 
    }
 
