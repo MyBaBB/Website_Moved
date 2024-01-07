@@ -334,4 +334,25 @@
     -webkit-box-shadow: 0 4px 8px rgba(255, 255, 255, 0.08);
             box-shadow: 0 4px 8px rgba(255, 255, 255, 0.08);
   }
+
   /*# sourceMappingURL=style.css.map */
+   .copyright {
+    position: fixed;
+    bottom: 0;
+    right: 25px;
+    white-space: nowrap;
+    color:antiquewhite;
+    font-size: 16px;
+    z-index: 0;
+
+
+   }
+
+   
+  
+          
+              
+
+
+
+
