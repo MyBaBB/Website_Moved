@@ -37,6 +37,7 @@
      font-size:20;
      font-weight: bold;
      text-decoration: underline double;
+     margin-top: 1rem;
     
      
    }
@@ -57,7 +58,14 @@
     font-weight: bolder;
     
   }
+   .NewMe {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
 
+
+   }
   .container {
     margin: 40px 0;
     width: 400px;
@@ -361,8 +369,8 @@
   /*# sourceMappingURL=style.css.map */
    .copyright {
     position: fixed;
-    bottom: 0;
-    right: 25px;
+    bottom: 12px;
+    margin: 0 auto;
     white-space: nowrap;
     color:antiquewhite;
     font-size: 16px;
