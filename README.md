@@ -6,4 +6,4 @@
 - npm run dev to run the server
 - npm run build to build the project
 
-![Image](ReadmeImg.png)
+![Image](ReadmeImg2.png)
