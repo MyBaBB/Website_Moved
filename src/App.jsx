@@ -44,8 +44,9 @@ const App = () => {
         <p className=" text-white text-center text-[12px]">
           (&quot;Mom&quot; Push-Button!)
         </p>
-        <Copyright />
+        
       </div>
+      <Copyright />
     </div>
   );
 };
