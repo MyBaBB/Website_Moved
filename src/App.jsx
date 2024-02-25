@@ -2,12 +2,25 @@
 import React from "react";
 import NewMe from "./NewMe.png";
 import "./App.css";
+import { ImPointRight } from "react-icons/im";
+import { ImPointLeft } from "react-icons/im";
+import Copyright from "./components.jsx/Copyright";
+
 const App = () => {
   return (
     <div>
       <div className="container">
         <a href="https://mybabb.github.io/Franken-Timer/">
-          <p className="title">👉FrankenTimer👈</p>
+          <p className="title">
+            <span className="inline-block text-green-500 font-extrabold mb-[-4px]">
+              <ImPointRight size={30} />
+            </span>
+            &nbsp;<span className="frank ">Franken Timer</span>&nbsp;
+            <span className="inline-block text-green-500 font-extrabold mb-[-4px]">
+              <ImPointLeft size={30} />
+            </span>
+          </p>
+          <hr className="frankHr" />
         </a>
         <p className="introduction">Franken-Timer needed Elbow Room</p>
         <br />
@@ -31,14 +44,7 @@ const App = () => {
         <p className=" text-white text-center text-[12px]">
           (&quot;Mom&quot; Push-Button!)
         </p>
-
-        <div className="copyright text-amber-900">
-          <p>
-            <span>
-              &lt;&lt;&lt;&copy;MyBaBB <em>8-2013</em>&gt;&gt;&gt;
-            </span>
-          </p>
-        </div>
+        <Copyright />
       </div>
     </div>
   );

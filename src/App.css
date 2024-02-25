@@ -88,11 +88,6 @@ hr {
 Add the correct text decoration in Chrome, Edge, and Safari.
 */
 
-abbr:where([title]) {
-  -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted;
-}
-
 /*
 Remove the default font size and weight for headings.
 */
@@ -664,6 +659,11 @@ button {
   display: block;
   margin: 0 auto;
   margin-top: 20px;
+  margin-bottom: 2rem;
+}
+.NewMe:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .container {
@@ -941,21 +941,47 @@ button {
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: bolder;
-  text-decoration: underline;
+
   white-space: nowrap;
 }
 .copyright {
-  position: absolute;
-  bottom: 0;
+  position: relative;
+
+  bottom: -8rem;
   white-space: nowrap;
   color: antiquewhite;
-  font-size: 16px;
+  font-size: 12px;
   z-index: 0;
   left: 50%;
   transform: translateX(-50%);
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .pushButton {
   text-shadow: 2px 2px 4px #000000;
+}
+.frank {
+  color: burlywood;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+
+  text-decoration: none;
+  white-space: nowrap;
+}
+.frank:hover {
+  text-decoration: none;
+  color: #209cff;
+}
+.frankHr {
+  border: 3px rgb(34 197 94) solid;
+  border-radius: 12px;
+  height: 6px;
+  background-color: black;
+
+  margin: 0 auto;
+  width: 70%;
+  margin-top: -12px;
+  margin-bottom: 12px;
 }
