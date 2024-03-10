@@ -8,7 +8,7 @@ const Copyright = () => {
       <div className="copyright text-amber-900">
         <p>
           <span className="text-green-400">
-            &lt;&lt;&lt;&copy;MyBaBB <em>8-2013</em>&gt;&gt;&gt;
+            &lt;&lt;&lt;&copy;MyBaBB <em>3-2024</em>&gt;&gt;&gt;
           </span>
         </p>
       </div>
